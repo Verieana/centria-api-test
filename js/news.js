@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 var params = new URLSearchParams(document.location.search.substring(1)); //GET parameters
 var newssrc = params.get("source"); // News source from previous page
-var url = 'http://newsapi.org/v2/everything?' // All news
+var url = 'https://newsapi.org/v2/everything?' // All news
 	      + 'sources=' + newssrc + '&'          // from the souce the user clicked
 				+ 'apiKey=86c5da9ffa9649cebfa35b01066a3331';
 var req = new Request(url); //Make a request

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 "use strict";
 
-var url = 'http://newsapi.org/v2/sources?' + //All the news sources
+var url = 'https://newsapi.org/v2/sources?' + //All the news sources
           'apiKey=86c5da9ffa9649cebfa35b01066a3331';
 var req = new Request(url); //Make a request
 var newssrc = ""; // Variable for the sources received from the API
